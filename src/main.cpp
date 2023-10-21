@@ -144,7 +144,6 @@ int main(int argc, char** argv) {
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
 
-
     // Check and call events and swap buffers
     glfwSwapBuffers(window);
     glfwPollEvents();
