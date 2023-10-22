@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/learnopengl.dir/src/glad.c.o.d"
   "CMakeFiles/learnopengl.dir/src/main.cpp.o"
   "CMakeFiles/learnopengl.dir/src/main.cpp.o.d"
+  "CMakeFiles/learnopengl.dir/src/shader.cpp.o"
+  "CMakeFiles/learnopengl.dir/src/shader.cpp.o.d"
   "learnopengl"
   "learnopengl.pdb"
 )

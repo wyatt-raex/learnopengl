@@ -120,7 +120,7 @@ int main(int argc, char** argv) {
   // De-allocate all OpenGL resources
   glDeleteVertexArrays(1, &VAO);
   glDeleteBuffers(1, &VBO);
-  ourShader.~Shader();
+  // ourShader.~Shader();
 
   // Clean GLFW resources and terminate program
   glfwTerminate();

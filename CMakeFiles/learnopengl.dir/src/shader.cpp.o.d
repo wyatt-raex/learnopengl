@@ -1,7 +1,7 @@
-CMakeFiles/learnopengl.dir/src/main.cpp.o: \
- /home/rae/dev/cpp/opengl/src/main.cpp /usr/include/stdc-predef.h \
- /home/rae/dev/cpp/opengl/src/main.hpp \
- /home/rae/dev/cpp/opengl/src/../include/glad/glad.h \
+CMakeFiles/learnopengl.dir/src/shader.cpp.o: \
+ /home/rae/dev/cpp/opengl/src/shader.cpp /usr/include/stdc-predef.h \
+ /home/rae/dev/cpp/opengl/src/./shader.hpp \
+ /home/rae/dev/cpp/opengl/src/./../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -12,11 +12,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
- /home/rae/dev/cpp/opengl/src/../include/KHR/khrplatform.h \
- /home/rae/dev/cpp/opengl/src/shader.hpp /usr/include/c++/13/string \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/cpu_defines.h \
@@ -27,6 +23,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
  /usr/include/wchar.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
@@ -137,23 +134,4 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: \
  /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iostream \
- /usr/include/c++/13/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/13/bits/specfun.h \
- /usr/include/c++/13/limits /usr/include/c++/13/tr1/gamma.tcc \
- /usr/include/c++/13/tr1/special_function_util.h \
- /usr/include/c++/13/tr1/bessel_function.tcc \
- /usr/include/c++/13/tr1/beta_function.tcc \
- /usr/include/c++/13/tr1/ell_integral.tcc \
- /usr/include/c++/13/tr1/exp_integral.tcc \
- /usr/include/c++/13/tr1/hypergeometric.tcc \
- /usr/include/c++/13/tr1/legendre_function.tcc \
- /usr/include/c++/13/tr1/modified_bessel_func.tcc \
- /usr/include/c++/13/tr1/poly_hermite.tcc \
- /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iostream

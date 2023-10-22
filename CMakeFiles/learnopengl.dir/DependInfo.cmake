@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rae/dev/cpp/opengl/src/glad.c" "CMakeFiles/learnopengl.dir/src/glad.c.o" "gcc" "CMakeFiles/learnopengl.dir/src/glad.c.o.d"
   "/home/rae/dev/cpp/opengl/src/main.cpp" "CMakeFiles/learnopengl.dir/src/main.cpp.o" "gcc" "CMakeFiles/learnopengl.dir/src/main.cpp.o.d"
+  "/home/rae/dev/cpp/opengl/src/shader.cpp" "CMakeFiles/learnopengl.dir/src/shader.cpp.o" "gcc" "CMakeFiles/learnopengl.dir/src/shader.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

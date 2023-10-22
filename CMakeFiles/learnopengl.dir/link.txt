@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/learnopengl.dir/src/main.cpp.o CMakeFiles/learnopengl.dir/src/glad.c.o -o learnopengl  /usr/lib64/libglfw.so.3.3 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 
+/usr/bin/c++ CMakeFiles/learnopengl.dir/src/main.cpp.o CMakeFiles/learnopengl.dir/src/glad.c.o CMakeFiles/learnopengl.dir/src/shader.cpp.o -o learnopengl  /usr/lib64/libglfw.so.3.3 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so 

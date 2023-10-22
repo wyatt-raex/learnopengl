@@ -72,6 +72,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
   include/KHR/khrplatform.h \
   include/glad/glad.h \
   src/main.hpp \
+  src/shader.hpp \
   /usr/include/GLFW/glfw3.h \
   /usr/include/KHR/khrplatform.h \
   /usr/include/alloca.h \
@@ -191,6 +192,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_construct.h \
@@ -233,6 +235,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -302,11 +305,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/locale.h:
 
-/usr/include/linux/errno.h:
-
 /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h:
-
-/usr/include/c++/13/x86_64-redhat-linux/bits/gthr-default.h:
 
 /usr/include/c++/13/x86_64-redhat-linux/bits/ctype_inline.h:
 
@@ -331,6 +330,10 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
 /usr/include/c++/13/tr1/ell_integral.tcc:
 
 /usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/c++/13/sstream:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -420,6 +423,8 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
+/usr/include/c++/13/bits/locale_facets.h:
+
 /usr/include/bits/types/timer_t.h:
 
 /usr/include/bits/mathcalls-narrow.h:
@@ -428,9 +433,15 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: src/main.cpp \
 
 /usr/include/bits/iscanonical.h:
 
+/usr/include/linux/errno.h:
+
+src/shader.hpp:
+
 /usr/include/dlfcn.h:
 
 /usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -749,5 +760,3 @@ src/main.hpp:
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
