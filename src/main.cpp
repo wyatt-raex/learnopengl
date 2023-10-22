@@ -1,4 +1,4 @@
-// Shaders e1 branch
+// Shaders e2 branch
 
 #include "main.hpp"
 
