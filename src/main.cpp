@@ -55,11 +55,9 @@ int main(int argc, char** argv) {
      0.5f,  0.5f, 0.0f,  1.0f, 0.0f, 0.0f, // top right
      0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f, // bottom right
     -0.5f, -0.5f, 0.0f,  0.0f, 0.0f, 1.0f, // bottom left
-    -0.5f,  0.5f, 0.0f,  0.0f, 0.0f, 0.0f, // top left
   }; 
   unsigned int indices[] = {
-    0, 1, 3, // first triangle
-    1, 2, 3  // second triangle
+    0, 1, 2, // first triangle
   };
 
   // VBO: Vertex Buffer Object - buffer to vertex attribute and index data
@@ -109,7 +107,7 @@ int main(int argc, char** argv) {
     ourShader.use();
 
     glBindVertexArray(VAO);
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
 
     // Check and call events and swap buffers
