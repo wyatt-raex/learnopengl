@@ -10,4 +10,6 @@
 /* Function Prototypes */
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
+void readShaderSourceCode(const char* filePath, std::string *shaderSource);
+
 void processInput(GLFWwindow *window);

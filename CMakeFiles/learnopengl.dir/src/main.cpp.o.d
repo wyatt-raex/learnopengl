@@ -132,4 +132,8 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc

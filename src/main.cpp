@@ -1,21 +1,14 @@
 #include "main.hpp"
 
+#include <fstream>
+
 /* DEFINES */
 #define WIN_HEIGHT 600
 #define WIN_LENGTH 800
 
-
-const char *vertexShaderSource = "#version 330 core\n"
-  "layout (location = 0) in vec3 aPos;\n"
-  "void main() {\n"
-  " gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
-  "}\0";
-
-const char *fragmentShaderSource = "#version 330 core\n"
-  "out vec4 FragColor;\n"
-  "void main() {\n"
-  "  FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
-  "}\0";
+/* Shader File Paths */
+const char* vertexPath = "./src/vertex.vert";
+const char* fragmentPath = "./src/fragment.frag";
 
 
 int main(int argc, char** argv) {
@@ -50,7 +43,11 @@ int main(int argc, char** argv) {
   // ---------------------------------------------------------------------------------------------
   // vertex shader
   unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
-  glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+  std::string vertexShaderSource;
+  readShaderSourceCode(vertexPath, &vertexShaderSource);
+  const char *vertexCode = vertexShaderSource.c_str();
+
+  glShaderSource(vertexShader, 1, &vertexCode, NULL);
   glCompileShader(vertexShader);
   // check for shader compile errors
   int success;
@@ -63,7 +60,11 @@ int main(int argc, char** argv) {
 
   // fragment shader
   unsigned int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-  glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+  std::string fragmentShaderSource;
+  readShaderSourceCode(fragmentPath, &fragmentShaderSource);
+  const char *fragmentCode = fragmentShaderSource.c_str();
+
+  glShaderSource(fragmentShader, 1, &fragmentCode, NULL);
   glCompileShader(fragmentShader);
   // check for shader compile errors
   glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
@@ -162,6 +163,24 @@ int main(int argc, char** argv) {
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
   glViewport(0, 0, width, height);
+}
+
+
+void readShaderSourceCode(const char* filePath, std::string *shaderSource) {
+  std::ifstream fileStream(filePath, std::ios::in);
+
+  if (!fileStream.is_open()) {
+    std::cerr << "Could not read file " << filePath << ". File does not exist!" << std::endl;
+    return;
+  }
+
+  std::string line = "";
+  while (!fileStream.eof()) {
+    std::getline(fileStream, line);
+    shaderSource->append(line + "\n");
+  }
+
+  fileStream.close();
 }
 
 
