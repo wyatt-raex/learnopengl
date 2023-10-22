@@ -92,6 +92,9 @@ int main(int argc, char** argv) {
   // so we generally don't unbind VAOs (nor VBOs) when it's not directly necessary.
   glBindVertexArray(0);
 
+  ourShader.use();
+  ourShader.setFloat("offset", 0.5f);
+
   // Render loop
   // ---------------------------------------------------------------------------------------------
   // uncomment this call to draw in wireframe polygons
