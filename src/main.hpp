@@ -4,6 +4,8 @@
 #include <GLFW/glfw3.h>
 #include "../include/KHR/khrplatform.h"
 
+#include "shader.hpp"
+
 #include <iostream>
 
 
