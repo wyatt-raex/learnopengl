@@ -1,7 +1,7 @@
 CMakeFiles/learnopengl.dir/src/main.cpp.o: \
- /home/rae/dev/cpp/opengl/src/main.cpp /usr/include/stdc-predef.h \
- /home/rae/dev/cpp/opengl/src/main.hpp \
- /home/rae/dev/cpp/opengl/src/../include/glad/glad.h \
+ /home/ylhena/dev/learnopengl/src/main.cpp /usr/include/stdc-predef.h \
+ /home/ylhena/dev/learnopengl/src/main.hpp \
+ /home/ylhena/dev/learnopengl/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -14,7 +14,7 @@ CMakeFiles/learnopengl.dir/src/main.cpp.o: \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
- /home/rae/dev/cpp/opengl/src/../include/KHR/khrplatform.h \
+ /home/ylhena/dev/learnopengl/src/../include/KHR/khrplatform.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h \

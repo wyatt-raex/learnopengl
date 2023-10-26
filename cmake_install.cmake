@@ -1,4 +1,4 @@
-# Install script for directory: /home/rae/dev/cpp/opengl
+# Install script for directory: /home/ylhena/dev/learnopengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rae/dev/cpp/opengl/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ylhena/dev/learnopengl/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
