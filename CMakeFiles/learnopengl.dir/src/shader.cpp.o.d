@@ -1,7 +1,7 @@
 CMakeFiles/learnopengl.dir/src/shader.cpp.o: \
- /home/rae/dev/cpp/opengl/src/shader.cpp /usr/include/stdc-predef.h \
- /home/rae/dev/cpp/opengl/src/./shader.hpp \
- /home/rae/dev/cpp/opengl/src/./../include/glad/glad.h \
+ /home/ylhena/dev/learnopengl/src/shader.cpp /usr/include/stdc-predef.h \
+ /home/ylhena/dev/learnopengl/src/./shader.hpp \
+ /home/ylhena/dev/learnopengl/src/./../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

@@ -1,5 +1,5 @@
 CMakeFiles/learnopengl.dir/src/glad.c.o: \
- /home/rae/dev/cpp/opengl/src/glad.c /usr/include/stdc-predef.h \
+ /home/ylhena/dev/learnopengl/src/glad.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -32,7 +32,7 @@ CMakeFiles/learnopengl.dir/src/glad.c.o: \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/rae/dev/cpp/opengl/src/../include/glad/glad.h \
+ /home/ylhena/dev/learnopengl/src/../include/glad/glad.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
