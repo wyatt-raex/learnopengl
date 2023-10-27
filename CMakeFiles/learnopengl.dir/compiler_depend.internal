@@ -3,8 +3,7 @@
 
 CMakeFiles/learnopengl.dir/src/glad.c.o
  /home/ylhena/dev/learnopengl/src/glad.c
- /home/rae/dev/cpp/opengl/include/glad/glad.h
- /home/rae/dev/cpp/opengl/src/glad.c
+ /home/ylhena/dev/learnopengl/include/glad/glad.h
  /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h
@@ -72,10 +71,9 @@ CMakeFiles/learnopengl.dir/src/glad.c.o
 
 CMakeFiles/learnopengl.dir/src/main.cpp.o
  /home/ylhena/dev/learnopengl/src/main.cpp
- /home/rae/dev/cpp/opengl/include/KHR/khrplatform.h
- /home/rae/dev/cpp/opengl/include/glad/glad.h
- /home/rae/dev/cpp/opengl/src/main.cpp
- /home/rae/dev/cpp/opengl/src/main.hpp
+ /home/ylhena/dev/learnopengl/include/KHR/khrplatform.h
+ /home/ylhena/dev/learnopengl/include/glad/glad.h
+ /home/ylhena/dev/learnopengl/src/main.hpp
  /usr/include/GLFW/glfw3.h
  /usr/include/KHR/khrplatform.h
  /usr/include/alloca.h
